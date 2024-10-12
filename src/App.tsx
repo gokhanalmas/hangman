@@ -61,7 +61,7 @@ function App() {
 
   useEffect(() => {
     if (isLoser) {
-      toast.error('You lost, please refresh the page!', {
+      toast.error('Kaybettiniz, lütfen sayfayı yenileyin!', {
         duration: 5000
       })
     }

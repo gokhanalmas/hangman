@@ -4,11 +4,14 @@ const KEYS = [
   'a',
   'b',
   'c',
+  'ç',
   'd',
   'e',
   'f',
   'g',
+  'ğ',
   'h',
+  'ı',
   'i',
   'j',
   'k',
@@ -16,18 +19,19 @@ const KEYS = [
   'm',
   'n',
   'o',
+  'ö',
   'p',
-  'q',
   'r',
   's',
+  'ş',
   't',
   'u',
+  'ü',
   'v',
-  'w',
-  'x',
   'y',
-  'z',
+  'z'
 ]
+
 
 type KeyboardProps = {
   activeLetter: string[],
